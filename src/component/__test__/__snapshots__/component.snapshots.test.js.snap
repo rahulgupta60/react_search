@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot GenreList 1`] = `
+<div
+  className="genres-list"
+>
+  <div
+    className="form-group"
+  >
+    <label
+      className="control-label"
+    >
+      Filter by genre :
+    </label>
+    <div
+      className="text-uppercase text-warning well well-sm"
+    >
+      by default 
+      <strong>
+        no
+      </strong>
+       filter apply for the genres 
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot MovieList 1`] = `"No Record found"`;
+
+exports[`Snapshot RatingList 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="control-label"
+  >
+    Filter by rating:
+  </label>
+  <select
+    className="form-control"
+    onChange={[Function]}
+    placeholder="select"
+    value={1}
+  >
+    ;
+  </select>
+</div>
+`;
